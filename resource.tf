@@ -1,3 +1,3 @@
-resources  "aws_eip" "elasticip" {
+resource  "aws_eip" "elasticip" {
             vpc = "true"
                  }
